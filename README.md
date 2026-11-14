@@ -56,94 +56,94 @@ Commercial, cloud-hosted Operational Insights and Predictive Analytics suites. T
 
 ## 🟩 Open-Source Software
 
-Production-grade, community-driven tools for metrics collection, anomaly detection, time-series forecasting, and automated root-cause analysis. Ranked in **descending order by GitHub star count** ⭐.
+Production-grade, community-driven tools for metrics collection, anomaly detection, time-series forecasting, and automated root-cause analysis. Ranked in **descending order by GitHub Stars_Count** ⭐.
 
-### 1. [Netdata](https://github.com/netdata/netdata) [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
+### 1. [Netdata](https://github.com/netdata/netdata) [![GitHub_Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
 - **Tech Stack:** `C` / `Go` | **License:** `GPL-3.0`
 - **Focus:** Real-time per-second infrastructure monitoring with unsupervised ML anomaly detection.
 - **Highlights:** Employs zero-configuration machine learning models per metric to flag anomalies in real time with ~5% CPU and ~150 MiB RAM consumption. Supports 800+ integrations and automated alert dispatching.
 
-### 2. [Grafana](https://github.com/grafana/grafana) [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
+### 2. [Grafana](https://github.com/grafana/grafana) [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
 - **Tech Stack:** `Go` / `TypeScript` | **License:** `AGPL-3.0`
 - **Focus:** Multi-source operational visualization, dynamic dashboarding, and alerting analytics.
 - **Highlights:** The industry-standard open visualization engine. Connects across Prometheus, Loki, OpenSearch, and SQL engines, supporting trend projections, outlier detections, and unified alerts.
 
-### 3. [Prometheus](https://github.com/prometheus/prometheus) [![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)
+### 3. [Prometheus](https://github.com/prometheus/prometheus) [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)
 - **Tech Stack:** `Go` | **License:** `Apache-2.0`
 - **Focus:** Systems monitoring, dimensional time-series data storage, and PromQL calculation engine.
 - **Highlights:** The CNCF graduated telemetry backbone. Offers PromQL predictive functions such as `predict_linear()` for disk/capacity exhaustion alerts and time-series threshold forecasting.
 
-### 4. [SigNoz](https://github.com/SigNoz/signoz) [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
+### 4. [SigNoz](https://github.com/SigNoz/signoz) [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
 - **Tech Stack:** `Go` / `TypeScript` / `ClickHouse` | **License:** `Apache-2.0`
 - **Focus:** Open-source full-stack APM, OpenTelemetry native backend, and distributed tracing.
 - **Highlights:** High-performance ClickHouse-backed alternative to Datadog. Correlates traces, metrics, and logs with p99 latency regressions, error budget tracking, and root cause diagnosis.
 
-### 5. [Jaeger](https://github.com/jaegertracing/jaeger) [![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)
+### 5. [Jaeger](https://github.com/jaegertracing/jaeger) [![GitHub_Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)
 - **Tech Stack:** `Go` | **License:** `Apache-2.0`
 - **Focus:** Distributed tracing, latency anomaly detection, and dependency graph root cause isolation.
 - **Highlights:** CNCF graduated distributed tracing platform for complex microservice architectures, pinpointing cascading latency anomalies and critical path performance bottlenecks.
 
-### 6. [OpenObserve](https://github.com/openobserve/openobserve) [![GitHub stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)
+### 6. [OpenObserve](https://github.com/openobserve/openobserve) [![GitHub_Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)
 - **Tech Stack:** `Rust` | **License:** `AGPL-3.0`
 - **Focus:** Cloud-native telemetry engine for logs, metrics, traces, RUM, and session replay.
 - **Highlights:** Built in Rust on Apache Arrow and DataFusion with direct object store (S3/GCS/MinIO) indexing, lowering storage costs up to 140x compared to legacy Elasticsearch/Datadog clusters.
 
-### 7. [Meta Prophet](https://github.com/facebook/prophet) [![GitHub stars](https://img.shields.io/github/stars/facebook/prophet?style=social&color=white)](https://github.com/facebook/prophet/stargazers)
+### 7. [Meta Prophet](https://github.com/facebook/prophet) [![GitHub_Stars](https://img.shields.io/github/stars/facebook/prophet?style=social&color=white)](https://github.com/facebook/prophet/stargazers)
 - **Tech Stack:** `Python` / `R` / `Stan` | **License:** `MIT`
 - **Focus:** Automated time-series forecasting at scale.
 - **Highlights:** Optimized for operational business and infrastructure forecasting with robust handling of seasonality, holidays, structural trend shifts, and missing time-series intervals.
 
-### 8. [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
+### 8. [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) [![GitHub_Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
 - **Tech Stack:** `Go` | **License:** `Apache-2.0`
 - **Focus:** Cost-effective, high-throughput time-series database and operational metrics monitoring.
 - **Highlights:** High-density TSDB with MetricsQL, outperforming standard Prometheus retention at scale, featuring built-in anomaly detection algorithms (`vmanomaly`) for infrastructure time-series.
 
-### 9. [sktime](https://github.com/sktime/sktime) [![GitHub stars](https://img.shields.io/github/stars/sktime/sktime?style=social&color=white)](https://github.com/sktime/sktime/stargazers)
+### 9. [sktime](https://github.com/sktime/sktime) [![GitHub_Stars](https://img.shields.io/github/stars/sktime/sktime?style=social&color=white)](https://github.com/sktime/sktime/stargazers)
 - **Tech Stack:** `Python` | **License:** `BSD-3-Clause`
 - **Focus:** Unified machine learning framework for time-series forecasting, regression, and anomaly detection.
 - **Highlights:** Provides scikit-learn-compatible interfaces for complex time-series classification, trend decomposition, anomaly discovery, and multivariate predictive modeling.
 
-### 10. [PyOD](https://github.com/yzhao062/pyod) [![GitHub stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers)
+### 10. [PyOD](https://github.com/yzhao062/pyod) [![GitHub_Stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers)
 - **Tech Stack:** `Python` | **License:** `BSD-2-Clause`
 - **Focus:** Comprehensive Python library for detecting outliers and operational anomalies in multivariate data.
 - **Highlights:** Includes 40+ anomaly detection algorithms spanning classical statistical methods (ECOD, COPOD), neural autoencoders, proximity-based kNN, and ensemble detectors with JIT acceleration.
 
-### 11. [Darts](https://github.com/unit8co/darts) [![GitHub stars](https://img.shields.io/github/stars/unit8co/darts?style=social&color=white)](https://github.com/unit8co/darts/stargazers)
+### 11. [Darts](https://github.com/unit8co/darts) [![GitHub_Stars](https://img.shields.io/github/stars/unit8co/darts?style=social&color=white)](https://github.com/unit8co/darts/stargazers)
 - **Tech Stack:** `Python` / `PyTorch` | **License:** `Apache-2.0`
 - **Focus:** User-friendly time series forecasting and anomaly detection library.
 - **Highlights:** Bridges classic statistical models (ARIMA, Exponential Smoothing) with state-of-the-art deep learning architectures (TiDE, N-BEATS, PatchTST, TFT) and integrated operational anomaly scoring.
 
-### 12. [Coroot](https://github.com/coroot/coroot) [![GitHub stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers)
+### 12. [Coroot](https://github.com/coroot/coroot) [![GitHub_Stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers)
 - **Tech Stack:** `Go` / `ClickHouse` / `eBPF` | **License:** `Apache-2.0`
 - **Focus:** eBPF-powered APM with autonomous AI root-cause analysis (RCA).
 - **Highlights:** Automatically maps application architecture using zero-overhead eBPF agents, inspecting network latency, database query degradation, and memory leaks to pinpoint exact root causes.
 
-### 13. [Nixtla StatsForecast](https://github.com/Nixtla/statsforecast) [![GitHub stars](https://img.shields.io/github/stars/Nixtla/statsforecast?style=social&color=white)](https://github.com/Nixtla/statsforecast/stargazers)
+### 13. [Nixtla StatsForecast](https://github.com/Nixtla/statsforecast) [![GitHub_Stars](https://img.shields.io/github/stars/Nixtla/statsforecast?style=social&color=white)](https://github.com/Nixtla/statsforecast/stargazers)
 - **Tech Stack:** `Python` / `Numba` / `C++` | **License:** `Apache-2.0`
 - **Focus:** Ultra-fast statistical and econometric time series forecasting.
 - **Highlights:** Computes classic statistical models (AutoARIMA, ETS, Theta, CES) up to 20x faster than traditional implementations, engineered to forecast millions of operational telemetry series in seconds.
 
-### 14. [Nixtla NeuralForecast](https://github.com/Nixtla/neuralforecast) [![GitHub stars](https://img.shields.io/github/stars/Nixtla/neuralforecast?style=social&color=white)](https://github.com/Nixtla/neuralforecast/stargazers)
+### 14. [Nixtla NeuralForecast](https://github.com/Nixtla/neuralforecast) [![GitHub_Stars](https://img.shields.io/github/stars/Nixtla/neuralforecast?style=social&color=white)](https://github.com/Nixtla/neuralforecast/stargazers)
 - **Tech Stack:** `Python` / `PyTorch` | **License:** `Apache-2.0`
 - **Focus:** Deep learning and foundation models for time series forecasting.
 - **Highlights:** State-of-the-art neural architectures (TimeGPT, PatchTST, NHITS, Informer) designed for multivariate operational load forecasting with GPU acceleration.
 
-### 15. [Monoscope](https://github.com/monoscope-tech/monoscope) [![GitHub stars](https://img.shields.io/github/stars/monoscope-tech/monoscope?style=social&color=white)](https://github.com/monoscope-tech/monoscope/stargazers)
+### 15. [Monoscope](https://github.com/monoscope-tech/monoscope) [![GitHub_Stars](https://img.shields.io/github/stars/monoscope-tech/monoscope?style=social&color=white)](https://github.com/monoscope-tech/monoscope/stargazers)
 - **Tech Stack:** `Go` / `S3 Storage` | **License:** `AGPL-3.0`
 - **Focus:** S3-backed operational telemetry with autonomous AI anomaly detection agents.
 - **Highlights:** OpenTelemetry-native platform featuring MCP (Model Context Protocol) server support for AI code agents (Claude, Cursor) to execute automated incident debugging.
 
-### 16. [NVIDIA Kumo-TS](https://github.com/NVIDIA/Kumo-TS) [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/Kumo-TS?style=social&color=white)](https://github.com/NVIDIA/Kumo-TS/stargazers)
+### 16. [NVIDIA Kumo-TS](https://github.com/NVIDIA/Kumo-TS) [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/Kumo-TS?style=social&color=white)](https://github.com/NVIDIA/Kumo-TS/stargazers)
 - **Tech Stack:** `Python` / `PyTorch` | **License:** `Apache-2.0`
 - **Focus:** GPU-accelerated time-series foundation models for forecasting and anomaly detection.
 - **Highlights:** Developed by NVIDIA to deliver scalable deep diffusion models and transformer backbones for large-scale enterprise tabular and temporal telemetry forecasting.
 
-### 17. [NexusBI](https://github.com/HeyderHesenov/NexusBI) [![GitHub stars](https://img.shields.io/github/stars/HeyderHesenov/NexusBI?style=social&color=white)](https://github.com/HeyderHesenov/NexusBI/stargazers)
+### 17. [NexusBI](https://github.com/HeyderHesenov/NexusBI) [![GitHub_Stars](https://img.shields.io/github/stars/HeyderHesenov/NexusBI?style=social&color=white)](https://github.com/HeyderHesenov/NexusBI/stargazers)
 - **Tech Stack:** `FastAPI` / `React` / `PostgreSQL` | **License:** `MIT`
 - **Focus:** Natural-language conversational BI with automated "Why?" root-cause driver trees.
 - **Highlights:** AI-driven platform converting plain English queries to SQL dashboards, decomposing sudden metric fluctuations into hierarchical root-cause contributor trees.
 
-### 18. [Scry](https://github.com/tushar23560/scry-predictive-api) [![GitHub stars](https://img.shields.io/github/stars/tushar23560/scry-predictive-api?style=social&color=white)](https://github.com/tushar23560/scry-predictive-api/stargazers)
+### 18. [Scry](https://github.com/tushar23560/scry-predictive-api) [![GitHub_Stars](https://img.shields.io/github/stars/tushar23560/scry-predictive-api?style=social&color=white)](https://github.com/tushar23560/scry-predictive-api/stargazers)
 - **Tech Stack:** `Python` / `PyTorch` / `FastAPI` | **License:** `Apache-2.0`
 - **Focus:** Predictive infrastructure failure classification from live metric streams.
 - **Highlights:** Classifies operational states into 5 discrete conditions (`NORMAL`, `PRE_SCALE`, `PRE_FAILURE`, `ACTIVE_DEGRADATION`, `ANOMALY`) using temporal VAEs and Chronos forecasting models.
@@ -152,7 +152,7 @@ Production-grade, community-driven tools for metrics collection, anomaly detecti
 
 ## 📊 Comparison Matrix at a Glance
 
-| Software 💻 | Deployment 📦 | Anomaly Detection 🔍 | Forecasting 📈 | Root Cause Analysis 🎯 | Community / Stars ⭐ |
+| Software 💻 | Deployment 📦 | Anomaly Detection 🔍 | Forecasting 📈 | Root Cause Analysis 🎯 | Community / GitHub_Stars ⭐ |
 |:---|:---|:---:|:---:|:---:|:---:|
 | **Netdata** | Self-Hosted / Cloud | ✅ Built-in ML | 🔄 Trend Checks | ❌ | ⭐ 81k+ |
 | **Grafana** | Self-Hosted / Cloud | ✅ Plugins / ML | ✅ Projections | 🔄 Correlation Panels | ⭐ 77k+ |
@@ -230,3 +230,12 @@ This repository is licensed under the [Creative Commons Zero v1.0 Universal](LIC
 <p align="center">
   ⭐ <b>Star this repository if it helped streamline your observability and analytics stack!</b> ⭐
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Operational-Insights-Predictive-Analytics&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Operational-Insights-Predictive-Analytics_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Operational-Insights-Predictive-Analytics_growth.svg">
+  </picture>
+</a>
