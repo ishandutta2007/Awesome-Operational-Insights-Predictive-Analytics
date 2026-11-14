@@ -4,10 +4,12 @@
 
 # 🚀 Awesome Operational Insights & Predictive Analytics 📊
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Operational-Insights-Predictive-Analytics/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Operational-Insights-Predictive-Analytics)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > 💡 **A curated list of top Operational Insights and Predictive Analytics platforms** — featuring SaaS/hosted commercial observability and enterprise BI suites alongside production-grade open-source tools for automated anomaly detection, time-series forecasting, performance profiling, and AI-driven root-cause analysis (RCA).
 >
@@ -23,6 +25,8 @@
 - [📊 Comparison Matrix at a Glance](#-comparison-matrix-at-a-glance)
 - [🎯 Key Evaluation Criteria](#-key-evaluation-criteria)
 - [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -197,6 +201,23 @@ Contributions are warmly welcomed! Please read our [contributing guidelines](CON
 3. Commit your changes: `git commit -m 'Add CoolAnalytics tool'`
 4. Push to the branch: `git push origin feature/cool-analytics-tool`
 5. Open a Pull Request 🚀
+
+---
+
+## 💖 Support
+
+Thank you for exploring and using this collection! If you find this curated list valuable for your projects, operations, or research, please consider supporting the project:
+
+- ⭐ **Star** this repository to help others discover it.
+- 🍴 **Fork** it and contribute new open-source tools or insights.
+- 📢 **Share** it with your engineering team, DevOps groups, and community.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation and maintenance, visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+##  Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Operational-Insights-Predictive-Analytics&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Operational-Insights-Predictive-Analytics&type=date&legend=top-left)
 
 ---
 
