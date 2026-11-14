@@ -1,141 +1,211 @@
-# Awesome-Operational-Insights-Predictive-Analytics
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Operational Insights and Predictive Analytics Banner" width="100%">
+</p>
 
-# Awesome Operational Insights & Predictive Analytics
+# 🚀 Awesome Operational Insights & Predictive Analytics 📊
 
-> A curated list of top Operational Insights and Predictive Analytics platforms — both SaaS/Hosted commercial observability and BI suites and open-source alternatives for anomaly detection, forecasting, and root-cause analysis.
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Operational-Insights-Predictive-Analytics/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Operational-Insights-Predictive-Analytics)
+
+> 💡 **A curated list of top Operational Insights and Predictive Analytics platforms** — featuring SaaS/hosted commercial observability and enterprise BI suites alongside production-grade open-source tools for automated anomaly detection, time-series forecasting, performance profiling, and AI-driven root-cause analysis (RCA).
+>
+> 🌟 *Star this repository if you find it helpful for your infrastructure, DevOps, SRE, or data science workflows!* 🌟
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Datadog](#datadog)
-  - [Dynatrace](#dynatrace)
-  - [New Relic](#new-relic)
-  - [Splunk](#splunk)
-  - [Tableau](#tableau)
-  - [Power BI](#power-bi)
-- [Open-Source Software](#-open-source-software)
-  - [Netdata](#netdata)
-  - [Coroot](#coroot)
-  - [OpenObserve](#openobserve)
-  - [Monoscope](#monoscope)
-  - [Scry](#scry)
-  - [NexusBI](#nexusbi)
-  - [NVIDIA Kumo](#nvidia-kumo)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Comparison Matrix at a Glance](#-comparison-matrix-at-a-glance)
+- [🎯 Key Evaluation Criteria](#-key-evaluation-criteria)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global market for **AIOps, Operational Intelligence, and Predictive Analytics** was estimated at approximately **$18.5 Billion in 2024** and is projected to surpass **$65 Billion by 2032**, demonstrating an explosive Compound Annual Growth Rate (CAGR) exceeding 17%. 
+
+The sector displays a **moderately fragmented yet consolidated top tier**: hyperscalers and legacy enterprise software giants (Microsoft, Salesforce, Cisco/Splunk, Datadog) dominate core infrastructure telemetry and executive dashboarding, while specialized high-growth players and open-source ecosystems capture specialized niches such as continuous profiling, eBPF-powered real-time root-cause analysis, and bespoke deep-learning time-series forecasting models.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Operational Insights and Predictive Analytics platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Operational Insights and Predictive Analytics suites. The table below is sorted in descending order by **Company Scale (Valuation / Market Capitalization / Acquisition Value)**.
 
-### Datadog
-**Type:** Full-stack observability with anomaly detection and forecasting
-Datadog provides infrastructure monitoring, APM, log management, and synthetic monitoring with built-in anomaly detection and forecasting. It correlates metrics, traces, and logs to surface operational insights, with dashboards and alerting that can trigger on predicted thresholds.
-
-### Dynatrace
-**Type:** AI-driven observability with predictive root cause
-Dynatrace uses its Davis AI engine for automatic discovery, dependency mapping, and AI-powered root cause analysis. It predicts performance degradation and surfaces operational insights without manual configuration, positioned for enterprises needing automated problem isolation.
-
-### New Relic
-**Type:** Observability with applied intelligence
-New Relic offers APM, infrastructure monitoring, and applied intelligence for anomaly detection, with usage-based pricing and a generous free tier. It provides dashboards, alerting, and predictive insights across the full stack.
-
-### Splunk
-**Type:** Machine data analytics and predictive insights
-Splunk ingests and analyzes machine data for operational intelligence, with SPL queries, anomaly detection, and predictive analytics. It is the long-standing enterprise standard for log-based operational insights, with extensive security and IT use cases.
-
-### Tableau
-**Type:** Visual analytics with predictive modeling
-Tableau provides visual data exploration and dashboarding with built-in predictive modeling (forecasting, clustering, trend lines). It is positioned for business analysts wanting to explore operational data visually and surface insights without deep statistical expertise.
-
-### Power BI
-**Type:** Business analytics with AI insights
-Power BI provides business intelligence with AI-powered insights, natural language queries, and forecasting capabilities. It is the natural choice for Microsoft-centric organizations wanting operational analytics integrated with their existing data stack.
+| Platform 🏷️ | Scale / Valuation 🏢 | Starting Pricing 💳 | Free Tier / Trial Limits 🎁 | Key Capabilities 🛠️ |
+|:---|:---|:---|:---|:---|
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | ~$3.1 Trillion *(Microsoft Parent Market Cap)* | $10.00 / user / month *(Power BI Pro)* | **Free Forever Plan** *(Desktop version free for individual local modeling; Power BI service cloud sharing requires trial/pro)* / 60-day full Pro trial with 10 GB workspace storage | Enterprise BI, AI insights, automated forecasting, DAX analytics, Copilot natural-language exploration |
+| **[Salesforce Tableau](https://www.tableau.com/)** | ~$310 Billion *(Salesforce Parent Market Cap)* | $15.00 / user / month *(Tableau Viewer; Creator starts at $75/mo)* | **Tableau Public** (Free forever for public workbooks) or **14-day free trial** of Tableau Cloud / Desktop with full Creator analytics capabilities | Visual analytics, predictive trends, clustering, forecasting, automated operational dashboards |
+| **[Splunk](https://www.splunk.com/)** | $28 Billion *(Acquired by Cisco)* | $15.00 / GB of ingested data / month *(Workload/ingest pricing)* | **Splunk Free**: 500 MB data indexing/day forever (single-node, no clustering/alerting) / **14-day Splunk Cloud free trial** (up to 5 GB/day) | Machine data telemetry, SPL query engine, ML anomaly detection, IT service intelligence (ITSI) |
+| **[Datadog](https://www.datadog.com/)** | ~$40 Billion *(Public Market Cap: NASDAQ:DDOG)* | $15.00 / host / month *(Infrastructure Pro tier; APM starts at $31/host/mo)* | **Free Forever Plan**: Up to 5 hosts with 1-day metric retention (core infrastructure collection) / **14-day full-feature free trial** with no host limit | Full-stack observability, unified logs/metrics/traces, machine learning anomaly detection, predictive forecasting alerts |
+| **[Dynatrace](https://www.dynatrace.com/)** | ~$15 Billion *(Public Market Cap: NYSE:DT)* | $0.08 / hour per 8 GiB host (~$58.40 / host / month) *(Full-Stack Monitoring)* | **15-day free trial** with full Davis AI engine capabilities, automated discovery, and APM analysis | Deterministic Davis AI engine, automated topological root-cause analysis (RCA), predictive anomaly scoring |
+| **[New Relic](https://newrelic.com/)** | $6.5 Billion *(Acquisition by Francisco Partners & TPG)* | $0.35 / GB ingested data beyond free tier + user seat fees *(Compute/User hybrid)* | **Free Forever Plan**: 100 GB/month data ingest free forever + 1 full-platform user seat + unlimited basic users / 30-day standard trial | Applied intelligence, proactive anomaly detection, telemetry data platform, full-stack tracing |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Operational Insights and Predictive Analytics tools. The open-source ecosystem spans **real-time monitoring with ML**, **observability with root-cause analysis**, **log/metric/trace platforms with anomaly detection**, and **specialized predictive libraries**.
+Production-grade, community-driven tools for metrics collection, anomaly detection, time-series forecasting, and automated root-cause analysis. Ranked in **descending order by GitHub star count** ⭐.
 
-### Netdata
-**Stack:** C / Go | **License:** GPL-3.0 (Agent)
-Netdata provides real-time, per-second metrics collection with a built-in dashboard, **ML-based anomaly detection**, and alerting—all with zero manual setup . It uses only ~5% CPU and ~150 MiB RAM by default, and a University of Amsterdam study found it the most energy-efficient monitoring tool among those compared, with no impact on monitored workloads . It supports 800+ data collection integrations, stores metrics in tiered write-once files, and includes **zero-touch machine learning** for proactive problem detection . Alert notifications support PagerDuty, Slack, Teams, email, Discord, Telegram, Jira, and ServiceNow .  
-**Best for:** Hands-on troubleshooting and real-time performance analysis with built-in ML anomaly detection, with minimal resource overhead.
+### 1. [Netdata](https://github.com/netdata/netdata) [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)
+- **Tech Stack:** `C` / `Go` | **License:** `GPL-3.0`
+- **Focus:** Real-time per-second infrastructure monitoring with unsupervised ML anomaly detection.
+- **Highlights:** Employs zero-configuration machine learning models per metric to flag anomalies in real time with ~5% CPU and ~150 MiB RAM consumption. Supports 800+ integrations and automated alert dispatching.
 
-### Coroot
-**Stack:** Go / ClickHouse | **License:** Apache-2.0
-Coroot is an open-source observability and APM tool with **AI-powered Root Cause Analysis**, combining metrics, logs, traces, continuous profiling, and SLO-based alerting with predefined dashboards and inspections . It continuously audits telemetry data to highlight issues and weak spots in infrastructure . The **anomaly-detection** repository compares statistical methods, LLMs, and Jev-style decision models on synthetic p99 latency scenarios, with a minute-by-minute replay site . It also provides a Kubernetes lab that reproduces real production incidents for testing root-cause-analysis tools .  
-**Best for:** Teams wanting AI-powered RCA across metrics, logs, and traces with a focus on infrastructure auditing and incident reproduction.
+### 2. [Grafana](https://github.com/grafana/grafana) [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
+- **Tech Stack:** `Go` / `TypeScript` | **License:** `AGPL-3.0`
+- **Focus:** Multi-source operational visualization, dynamic dashboarding, and alerting analytics.
+- **Highlights:** The industry-standard open visualization engine. Connects across Prometheus, Loki, OpenSearch, and SQL engines, supporting trend projections, outlier detections, and unified alerts.
 
-### OpenObserve
-**Stack:** Rust | **License:** AGPL-3.0
-OpenObserve is an open-source observability platform for logs, metrics, traces, RUM (web, Android, iOS), session replay, pipelines, SLO, and LLM observability . It is positioned as a "sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment" . It provides the data foundation for operational insights with cost-efficient storage.  
-**Best for:** Teams wanting a cost-efficient, self-hosted observability backend for logs, metrics, and traces, accepting that ML/forecasting must be layered on top.
+### 3. [Prometheus](https://github.com/prometheus/prometheus) [![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)
+- **Tech Stack:** `Go` | **License:** `Apache-2.0`
+- **Focus:** Systems monitoring, dimensional time-series data storage, and PromQL calculation engine.
+- **Highlights:** The CNCF graduated telemetry backbone. Offers PromQL predictive functions such as `predict_linear()` for disk/capacity exhaustion alerts and time-series threshold forecasting.
 
-### Monoscope
-**Stack:** Go / S3-compatible storage | **License:** AGPL-3.0
-Monoscope is an open-source observability platform that stores telemetry in **S3-compatible storage**, with **natural language queries**, **AI agents that run on a schedule to detect anomalies**, and email reports . It is OpenTelemetry-native with 750+ integrations, live tail, and unified views correlating logs, metrics, traces, and session replays . The **MCP server** exposes itself as a Model Context Protocol server so Claude Desktop, Cursor, or custom agents can search events, manage monitors, and run composite workflows like natural-language-to-KQL and LLM-assisted root cause .  
-**Best for:** Teams wanting cost-efficient S3-backed observability with scheduled AI anomaly detection and AI agent integration.
+### 4. [SigNoz](https://github.com/SigNoz/signoz) [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)
+- **Tech Stack:** `Go` / `TypeScript` / `ClickHouse` | **License:** `Apache-2.0`
+- **Focus:** Open-source full-stack APM, OpenTelemetry native backend, and distributed tracing.
+- **Highlights:** High-performance ClickHouse-backed alternative to Datadog. Correlates traces, metrics, and logs with p99 latency regressions, error budget tracking, and root cause diagnosis.
 
-### Scry
-**Stack:** Python / PyTorch / FastAPI | **License:** Apache-2.0
-Scry predicts infrastructure failure states from a stream of metrics, sorting each resource into one of **five operational states** (NORMAL, PRE_SCALE, PRE_FAILURE, ACTIVE_DEGRADATION, ANOMALY) with a recommended action and priority . It uses a **dual-encoder temporal VAE plus deep embedded clustering** (X-DEC model) trained on your own metrics, with an optional Chronos forecasting layer. It is **data-source agnostic** (Parquet/CSV from local or S3/GCS/ADLS/MinIO via DuckDB) and runs fully offline with no cloud dependencies . The FastAPI service exposes `/predict`, `/forecast`, `/drift`, `/anomaly`, and `/accuracy` endpoints.  
-**Best for:** Teams wanting a focused, trainable predictive failure model for infrastructure metrics, accepting that you bring your own data and train your own model.
+### 5. [Jaeger](https://github.com/jaegertracing/jaeger) [![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)
+- **Tech Stack:** `Go` | **License:** `Apache-2.0`
+- **Focus:** Distributed tracing, latency anomaly detection, and dependency graph root cause isolation.
+- **Highlights:** CNCF graduated distributed tracing platform for complex microservice architectures, pinpointing cascading latency anomalies and critical path performance bottlenecks.
 
-### NexusBI
-**Stack:** FastAPI / React / PostgreSQL | **License:** Open Source (GitHub)
-NexusBI is an AI-powered natural-language BI platform with **NL→SQL→dashboard**, a power-user SQL editor, **root-cause analysis**, **proactive AI digest**, an agentic copilot, and a semantic/trust layer . Key operational insight features include **forecasting**, **anomaly detection**, and a **"Why?" hierarchical root-cause tree** that decomposes a metric into a multi-level driver tree with contribution percentages and a deterministic fallback when AI is unavailable . It supports RBAC, row-level security, embedded analytics, and white-label. The project started as a course project but is actively developed with PRs, tests, and CI .  
-**Best for:** Teams wanting a self-hosted BI platform with natural language querying, forecasting, anomaly detection, and hierarchical root-cause analysis, accepting a younger project.
+### 6. [OpenObserve](https://github.com/openobserve/openobserve) [![GitHub stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)
+- **Tech Stack:** `Rust` | **License:** `AGPL-3.0`
+- **Focus:** Cloud-native telemetry engine for logs, metrics, traces, RUM, and session replay.
+- **Highlights:** Built in Rust on Apache Arrow and DataFusion with direct object store (S3/GCS/MinIO) indexing, lowering storage costs up to 140x compared to legacy Elasticsearch/Datadog clusters.
 
-### NVIDIA Kumo
-**Stack:** Python / PyTorch | **License:** Open Model (NVIDIA)
-NVIDIA Kumo is a family of **open models and libraries for making predictions from tabular, relational, and time-series data**, including **forecasting**, **anomaly detection**, and risk scoring . The **Kumo Forecast** model explores time-series forecasting for demand planning and capacity management, with support for short- and long-horizon forecasting and optional retrieval of historical patterns. **Kumo Anomaly** uses diffusion-based modeling for time-series imputation and anomaly detection with adaptive thresholds . Libraries install via `pip install kumo-engine`, with Snowflake and Databricks integrations available. It is not a monitoring platform but a predictive modeling toolkit.  
-**Best for:** Data science teams wanting pretrained models for forecasting and anomaly detection on structured/tabular data, accepting that you integrate them into your own pipelines.
+### 7. [Meta Prophet](https://github.com/facebook/prophet) [![GitHub stars](https://img.shields.io/github/stars/facebook/prophet?style=social&color=white)](https://github.com/facebook/prophet/stargazers)
+- **Tech Stack:** `Python` / `R` / `Stan` | **License:** `MIT`
+- **Focus:** Automated time-series forecasting at scale.
+- **Highlights:** Optimized for operational business and infrastructure forecasting with robust handling of seasonality, holidays, structural trend shifts, and missing time-series intervals.
+
+### 8. [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)
+- **Tech Stack:** `Go` | **License:** `Apache-2.0`
+- **Focus:** Cost-effective, high-throughput time-series database and operational metrics monitoring.
+- **Highlights:** High-density TSDB with MetricsQL, outperforming standard Prometheus retention at scale, featuring built-in anomaly detection algorithms (`vmanomaly`) for infrastructure time-series.
+
+### 9. [sktime](https://github.com/sktime/sktime) [![GitHub stars](https://img.shields.io/github/stars/sktime/sktime?style=social&color=white)](https://github.com/sktime/sktime/stargazers)
+- **Tech Stack:** `Python` | **License:** `BSD-3-Clause`
+- **Focus:** Unified machine learning framework for time-series forecasting, regression, and anomaly detection.
+- **Highlights:** Provides scikit-learn-compatible interfaces for complex time-series classification, trend decomposition, anomaly discovery, and multivariate predictive modeling.
+
+### 10. [PyOD](https://github.com/yzhao062/pyod) [![GitHub stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers)
+- **Tech Stack:** `Python` | **License:** `BSD-2-Clause`
+- **Focus:** Comprehensive Python library for detecting outliers and operational anomalies in multivariate data.
+- **Highlights:** Includes 40+ anomaly detection algorithms spanning classical statistical methods (ECOD, COPOD), neural autoencoders, proximity-based kNN, and ensemble detectors with JIT acceleration.
+
+### 11. [Darts](https://github.com/unit8co/darts) [![GitHub stars](https://img.shields.io/github/stars/unit8co/darts?style=social&color=white)](https://github.com/unit8co/darts/stargazers)
+- **Tech Stack:** `Python` / `PyTorch` | **License:** `Apache-2.0`
+- **Focus:** User-friendly time series forecasting and anomaly detection library.
+- **Highlights:** Bridges classic statistical models (ARIMA, Exponential Smoothing) with state-of-the-art deep learning architectures (TiDE, N-BEATS, PatchTST, TFT) and integrated operational anomaly scoring.
+
+### 12. [Coroot](https://github.com/coroot/coroot) [![GitHub stars](https://img.shields.io/github/stars/coroot/coroot?style=social&color=white)](https://github.com/coroot/coroot/stargazers)
+- **Tech Stack:** `Go` / `ClickHouse` / `eBPF` | **License:** `Apache-2.0`
+- **Focus:** eBPF-powered APM with autonomous AI root-cause analysis (RCA).
+- **Highlights:** Automatically maps application architecture using zero-overhead eBPF agents, inspecting network latency, database query degradation, and memory leaks to pinpoint exact root causes.
+
+### 13. [Nixtla StatsForecast](https://github.com/Nixtla/statsforecast) [![GitHub stars](https://img.shields.io/github/stars/Nixtla/statsforecast?style=social&color=white)](https://github.com/Nixtla/statsforecast/stargazers)
+- **Tech Stack:** `Python` / `Numba` / `C++` | **License:** `Apache-2.0`
+- **Focus:** Ultra-fast statistical and econometric time series forecasting.
+- **Highlights:** Computes classic statistical models (AutoARIMA, ETS, Theta, CES) up to 20x faster than traditional implementations, engineered to forecast millions of operational telemetry series in seconds.
+
+### 14. [Nixtla NeuralForecast](https://github.com/Nixtla/neuralforecast) [![GitHub stars](https://img.shields.io/github/stars/Nixtla/neuralforecast?style=social&color=white)](https://github.com/Nixtla/neuralforecast/stargazers)
+- **Tech Stack:** `Python` / `PyTorch` | **License:** `Apache-2.0`
+- **Focus:** Deep learning and foundation models for time series forecasting.
+- **Highlights:** State-of-the-art neural architectures (TimeGPT, PatchTST, NHITS, Informer) designed for multivariate operational load forecasting with GPU acceleration.
+
+### 15. [Monoscope](https://github.com/monoscope-tech/monoscope) [![GitHub stars](https://img.shields.io/github/stars/monoscope-tech/monoscope?style=social&color=white)](https://github.com/monoscope-tech/monoscope/stargazers)
+- **Tech Stack:** `Go` / `S3 Storage` | **License:** `AGPL-3.0`
+- **Focus:** S3-backed operational telemetry with autonomous AI anomaly detection agents.
+- **Highlights:** OpenTelemetry-native platform featuring MCP (Model Context Protocol) server support for AI code agents (Claude, Cursor) to execute automated incident debugging.
+
+### 16. [NVIDIA Kumo-TS](https://github.com/NVIDIA/Kumo-TS) [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/Kumo-TS?style=social&color=white)](https://github.com/NVIDIA/Kumo-TS/stargazers)
+- **Tech Stack:** `Python` / `PyTorch` | **License:** `Apache-2.0`
+- **Focus:** GPU-accelerated time-series foundation models for forecasting and anomaly detection.
+- **Highlights:** Developed by NVIDIA to deliver scalable deep diffusion models and transformer backbones for large-scale enterprise tabular and temporal telemetry forecasting.
+
+### 17. [NexusBI](https://github.com/HeyderHesenov/NexusBI) [![GitHub stars](https://img.shields.io/github/stars/HeyderHesenov/NexusBI?style=social&color=white)](https://github.com/HeyderHesenov/NexusBI/stargazers)
+- **Tech Stack:** `FastAPI` / `React` / `PostgreSQL` | **License:** `MIT`
+- **Focus:** Natural-language conversational BI with automated "Why?" root-cause driver trees.
+- **Highlights:** AI-driven platform converting plain English queries to SQL dashboards, decomposing sudden metric fluctuations into hierarchical root-cause contributor trees.
+
+### 18. [Scry](https://github.com/tushar23560/scry-predictive-api) [![GitHub stars](https://img.shields.io/github/stars/tushar23560/scry-predictive-api?style=social&color=white)](https://github.com/tushar23560/scry-predictive-api/stargazers)
+- **Tech Stack:** `Python` / `PyTorch` / `FastAPI` | **License:** `Apache-2.0`
+- **Focus:** Predictive infrastructure failure classification from live metric streams.
+- **Highlights:** Classifies operational states into 5 discrete conditions (`NORMAL`, `PRE_SCALE`, `PRE_FAILURE`, `ACTIVE_DEGRADATION`, `ANOMALY`) using temporal VAEs and Chronos forecasting models.
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Comparison Matrix at a Glance
 
-| Software | License | Stack | Anomaly Detection | Forecasting | Root Cause | Self-Hosted | Best For |
-|----------|---------|-------|-------------------|-------------|------------|-------------|----------|
-| **Datadog** | Proprietary | Cloud | ✅ | ✅ | (Correlation) | ❌ | Full-stack observability |
-| **Dynatrace** | Proprietary | Cloud | ✅ | ✅ | ✅ Davis AI | ❌ | AI-driven RCA |
-| **Splunk** | Proprietary | Cloud/On-prem | ✅ | ✅ | (SPL) | (On-prem) | Log-based insights |
-| **Netdata** | GPL-3.0 | C/Go | ✅ ML | (Check) | ❌ | ✅ | Real-time ML monitoring |
-| **Coroot** | Apache-2.0 | Go/ClickHouse | ✅ | ❌ | ✅ AI RCA | ✅ | AI-powered observability |
-| **OpenObserve** | AGPL-3.0 | Rust | (Layer on top) | ❌ | ❌ | ✅ | Cost-efficient telemetry |
-| **Monoscope** | AGPL-3.0 | Go/S3 | ✅ AI agents | ❌ | (LLM) | ✅ | S3-backed + AI agents |
-| **Scry** | Apache-2.0 | Python/PyTorch | ✅ X-DEC | ✅ Chronos | ❌ | ✅ | Predictive failure states |
-| **NexusBI** | Open Source | FastAPI/React | ✅ | ✅ | ✅ "Why?" tree | ✅ | NL BI + root-cause |
-| **Kumo** | Open Model | Python/PyTorch | ✅ | ✅ | ❌ | ✅ (Library) | Pretrained predictive models |
+| Software 💻 | Deployment 📦 | Anomaly Detection 🔍 | Forecasting 📈 | Root Cause Analysis 🎯 | Community / Stars ⭐ |
+|:---|:---|:---:|:---:|:---:|:---:|
+| **Netdata** | Self-Hosted / Cloud | ✅ Built-in ML | 🔄 Trend Checks | ❌ | ⭐ 81k+ |
+| **Grafana** | Self-Hosted / Cloud | ✅ Plugins / ML | ✅ Projections | 🔄 Correlation Panels | ⭐ 77k+ |
+| **Prometheus** | Self-Hosted | 🔄 Alerting Rules | ✅ `predict_linear()` | ❌ | ⭐ 67k+ |
+| **SigNoz** | Self-Hosted / Cloud | ✅ Dynamic Thresholds | 🔄 Planned | ✅ Distributed Traces | ⭐ 32k+ |
+| **Jaeger** | Self-Hosted | ✅ Latency Outliers | ❌ | ✅ Trace Dependency Tree | ⭐ 23k+ |
+| **OpenObserve** | Self-Hosted / Cloud | 🔄 Layered / Alerts | ❌ | 🔄 Log Correlation | ⭐ 23k+ |
+| **Meta Prophet** | Library (Python/R) | ✅ Residual Outliers | ✅ Bayesian Model | ❌ | ⭐ 20k+ |
+| **VictoriaMetrics**| Self-Hosted / Cloud | ✅ `vmanomaly` ML | ✅ MetricsQL | ❌ | ⭐ 18k+ |
+| **PyOD** | Python Library | ✅ 40+ ML Algorithms | ❌ | ❌ | ⭐ 10k+ |
+| **sktime** | Python Library | ✅ Outlier Classifiers | ✅ Unified Estimators | ❌ | ⭐ 10k+ |
+| **Darts** | Python Library | ✅ Ensembles | ✅ DL Models (TiDE, N-BEATS)| ❌ | ⭐ 9.5k+ |
+| **Coroot** | Self-Hosted / Cloud | ✅ Telemetry Auditing | ❌ | ✅ Automated AI RCA | ⭐ 8.0k+ |
+| **StatsForecast** | Python Library | ❌ | ✅ Ultra-fast AutoARIMA | ❌ | ⭐ 4.9k+ |
+| **NeuralForecast**| Python Library | ❌ | ✅ Foundation Models | ❌ | ⭐ 4.3k+ |
+| **Monoscope** | Self-Hosted / Cloud | ✅ AI Scheduled Agents | ❌ | ✅ LLM-Assisted RCA | ⭐ 2.1k+ |
+| **NVIDIA Kumo-TS** | Python Library | ✅ Diffusion Anomaly | ✅ Transformer Forecasting | ❌ | ⭐ 64 |
+| **NexusBI** | Self-Hosted | ✅ Time Series Outliers | ✅ Predictive Trend | ✅ Contributor Tree | ⭐ 3 |
+| **Scry** | Self-Hosted / API | ✅ Temporal VAE | ✅ Chronos Layer | ✅ Predictive State Flag | ⭐ 0 |
+| **Datadog** | SaaS Only | ✅ Unsupervised ML | ✅ Algorithmic Forecast | 🔄 Trace Correlation | Commercial |
+| **Dynatrace** | SaaS Only | ✅ Deterministic AI | ✅ Capacity Planning | ✅ Davis AI Engine | Commercial |
+| **New Relic** | SaaS Only | ✅ Applied Intelligence| 🔄 Trend Alerts | ✅ Automated RCA | Commercial |
+| **Splunk** | SaaS / On-prem | ✅ ML Toolkit (MLTK) | ✅ Predictive SPL Queries | ✅ ITSI Event Correlation| Commercial |
+| **Tableau** | SaaS / On-prem | 🔄 Clustering Outliers | ✅ Built-in Exponential | ❌ | Commercial |
+| **Power BI** | SaaS / Desktop | ✅ Automated Anomaly | ✅ AI Forecast Decomposition| 🔄 Key Influencers Tree | Commercial |
+
+---
+
+## 🎯 Key Evaluation Criteria
+
+When evaluating tools for Operational Insights and Predictive Analytics, consider:
+
+1. **Detection Latency & Telemetry Ingestion Rate:** High-volume event streams (e.g., streaming logs or per-second server telemetry) require fast, zero-copy engines (Rust, Go, ClickHouse) such as OpenObserve, VictoriaMetrics, or Netdata.
+2. **Root Cause Analysis (RCA) Automation:** Tools like Coroot (via eBPF) and Dynatrace (via Davis AI) map dependency graphs automatically rather than relying on manual dashboard correlations.
+3. **Forecasting Horizons:** For infrastructure scaling (e.g., disk fullness, autoscaling clusters), statistical algorithms (StatsForecast, Prophet, Darts) provide deterministic confidence intervals without expensive GPU overhead.
+4. **Data Ownership & Total Cost of Ownership (TCO):** High data egress and ingestion costs with proprietary SaaS tools make self-hosted, S3-backed alternatives (OpenObserve, Monoscope, SigNoz) increasingly attractive for enterprise data retention.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Operational Insights or Predictive Analytics tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! Please read our [contributing guidelines](CONTRIBUTING.md) or submit a pull request if you know of an exceptional open-source or enterprise platform that belongs here.
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** Operational insights and predictive analytics is a broad category where the right tool depends on whether you need **real-time monitoring with ML** (Netdata), **AI-powered root cause analysis** (Coroot), **cost-efficient telemetry storage** (OpenObserve, Monoscope), **predictive failure modeling** (Scry, Kumo), or **natural-language BI with root-cause** (NexusBI). **Netdata** is the most mature open-source option for zero-config ML anomaly detection , while **Coroot** provides the strongest AI-driven RCA for infrastructure . For teams wanting to build custom predictive models, **Scry** and **NVIDIA Kumo** offer trainable foundations .
+1. Fork this repository 🍴
+2. Create your feature branch: `git checkout -b feature/cool-analytics-tool`
+3. Commit your changes: `git commit -m 'Add CoolAnalytics tool'`
+4. Push to the branch: `git push origin feature/cool-analytics-tool`
+5. Open a Pull Request 🚀
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>Star this repository if it helped streamline your observability and analytics stack!</b> ⭐
+</p>
